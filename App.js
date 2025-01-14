@@ -2,7 +2,7 @@ import { StyleSheet, Text, View } from "react-native";
 import { useState } from "react";
 import { SafeAreaView } from 'react-native-safe-area-context';
 import CheckBox from "./components/CheckBox";
-import H2Header from "./components/H2Header";
+import H2Heading from "./components/H2Heading";
 
 const App = () => {
   const [English, setEnglish] = useState(false);
@@ -14,7 +14,7 @@ const App = () => {
       <H2Header
         textContent="React Native Form Checkbox Example"
       />
-      <H2Header
+      <H2Heading
         textContent="What languages do you speak?"
       />
       <CheckBox
